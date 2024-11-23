@@ -37,21 +37,21 @@
 void yapInfo(char info[])
 {
     //     COLOR  TAG TEXT RESET     TAG   TEXT
-    printf(WHITE  "%s: %s\n\x1B[0m", INFO, info);
+    printf(WHITE  "%s: %s\n\x1B[0m\0", INFO, info);
 }
 
 // Prints warnings to the output
 void yapWarning(char warn[])
 {
     //     COLOR  TAG TEXT RESET     TAG      TEXT
-    printf(YELLOW "%s: %s\n\x1B[0m", WARNING, warn);
+    printf(YELLOW "%s: %s\n\x1B[0m\0", WARNING, warn);
 }
 
 // Prints errors to the output
 void yapError(char error[])
 {
     //   COLOR    TAG TEXT RESET     TAG    TEXT
-    printf(RED    "%s: %s\n\x1B[0m", ERROR, error);
+    printf(RED    "%s: %s\n\x1B[0m\0", ERROR, error);
 }
 
 #endif
