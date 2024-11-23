@@ -1,5 +1,10 @@
 # Yapper (Yet Another Problem Problem Error Reporter)
 
+> [!IMPORTANT]
+> Yapper only works on Unix based systems you can make a PR about that if you want
+
+
+
 ### Yapper is a very simple logging header only library heres how it works:
 
 **Yapper by itself only has 3 functions**
